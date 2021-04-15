@@ -3,3 +3,40 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+// variabili
+$primary_color: red;
+$secondary_color: blue;
+$font_big: 30px;
+$font_normal: 18px;
+$font_small: 12px;
+
+// Mix
+.container {
+  padding: 50px;
+}
+
+// Typo
+h1 {
+  font-size: $font_big;
+}
+
+p {
+  font-size: $font_normal;
+}
+
+h1, p {
+  color: $primary_color;
+  margin: 50px 0;
+}
+
+// bottoni
+button {
+  background-color: $primary_color;
+  color: $secondary_color;
+  padding: 15px;
+  border: 0;
+  border-radius: 5px;
+  font-size: $font_small;
+  font-weight: bold;
+}

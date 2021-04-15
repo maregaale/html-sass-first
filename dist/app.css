@@ -3,3 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  padding: 50px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1, p {
+  color: red;
+  margin: 50px 0;
+}
+
+button {
+  background-color: red;
+  color: blue;
+  padding: 15px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
